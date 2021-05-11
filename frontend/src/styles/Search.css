@@ -1,0 +1,106 @@
+#search {
+  display: flex;
+}
+
+#find, #near {
+  display: inline;
+}
+
+#find {
+  width: 400px;
+}
+
+span.ant-input-group-addon {
+  font-size: 16px;
+}
+
+input.ant-input {
+  font-size: 16px;
+}
+
+.ant-input-search-button svg {
+  font-size: 22px;
+}
+
+#near {
+  width: 310px;
+}
+
+#tags {
+  margin-top: 10px;
+  max-width: 700px;
+  min-height: 40px;
+}
+
+#tags .ant-tag {
+  background-color: #a7d2cb;
+  color: white;
+  border: 1px dashed white;
+}
+
+#tags .ant-tag:hover {
+  cursor: text;
+  outline: none;
+  color: gray;
+  border-color: #a7d2cb;
+  box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.7),
+  inset 0 0 .5rem rgba(255, 255, 255, 0.7),
+  0 0 5px #f2d388,
+  inset 0 0 4rem rgba(255, 255, 255, 0.7); 
+}
+
+.site-tag-plus {
+  background: #fff;
+  border-style: dashed;
+}
+
+.edit-tag {
+  user-select: none;
+}
+
+.tag-input {
+  width: 100px;
+  vertical-align: top;
+}
+
+.site-tag-plus, .edit-tag, .tag-input {
+  margin-top: 7px;
+  font-size: 16px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#categories {
+  margin-top: 30px;
+  max-width: 700px;
+  text-align: center;
+}
+
+#categories .ant-tag {
+  padding: 3px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#categories .ant-tag:hover {
+  cursor: pointer;
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.7),
+  inset 0 0 .5rem rgba(255, 255, 255, 0.7),
+  0 0 5px #f2d388,
+  inset 0 0 4rem rgba(255, 255, 255, 0.7); 
+}
+
+#rating {
+  display: inline;
+}
+
+#covid-safe {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#covid-safe button {
+  margin-left: 5px;
+}

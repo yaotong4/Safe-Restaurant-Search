@@ -1,0 +1,113 @@
+#explore .ant-tabs-nav-list {
+  margin: auto;
+  width: 80%;
+}
+
+#explore .card-container {
+  margin-top: 30px;
+}
+
+.ant-tabs-tab {
+  font-size: 16px;
+}
+
+.ant-select-selection-item {
+  font-size: 16px;
+}
+
+#location {
+  margin: auto;
+  width: 80%;
+}
+
+#location-dropdown {
+  display: inline-block;
+}
+
+#category {
+  margin: auto;
+  width: 80%;
+}
+
+#keywords {
+  margin: auto;
+  width: 80%;
+}
+
+#safetyindex {
+  margin: auto;
+  width: 80%;
+}
+
+#rank {
+  margin-top: 20px;
+}
+
+.rank-container {
+  display: block;
+}
+
+#rank .ant-table-content {
+  font-size: 18px;
+}
+
+#explore #tags {
+  max-width: 1000px;
+  min-height: 20px;
+  margin-bottom: 20px;
+}
+
+#rank .ant-tag {
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#rank .ant-tag:hover {
+  cursor: default;
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.7),
+  inset 0 0 .5rem rgba(255, 255, 255, 0.7),
+  0 0 5px #f2d388,
+  inset 0 0 4rem rgba(255, 255, 255, 0.7); 
+}
+
+#rank span.name {
+  font-size: 20px;
+  color: #1890ff;
+}
+
+#rank span.name:hover {
+  cursor: pointer;
+}
+
+#rank tr th:nth-child(1){
+  display: none;
+}
+
+#rank tr td:nth-child(1){
+  display: none;
+}
+
+#explore .ant-spin {
+  margin-left: 10px;
+}
+
+.order-by {
+  margin-right: 3px;
+}
+
+#location .order-by {
+  margin-left: 10px;
+}
+
+#category .order-by {
+  margin-left: 10px;
+}
+
+#keywords button {
+  margin-left: 10px;
+  font-size: 14px;
+}

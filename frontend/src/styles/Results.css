@@ -1,0 +1,96 @@
+.results-container {
+  margin-bottom: 60px;
+}
+
+.results-search-container {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    height: 90px;
+}
+
+.loading-icon{
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.preview {
+    max-width: 500px;
+  }
+  
+.preview .ant-card {
+  background-color: white;
+}
+
+.preview .name {
+  font-size: 31px;
+}
+
+.preview .name.long {
+  font-size: 28px;
+}
+
+.preview .name.verylong {
+  font-size: 25px;
+}
+
+.preview .name.toolong {
+  font-size: 22px;
+}
+
+.preview .name.toooolong {
+  font-size: 19px;
+}
+
+.preview .stars {
+  margin-top: 3px;
+  width: 160px;
+  max-width: 90%;
+  margin-left: 0px;
+}
+
+.preview .review-count {
+  vertical-align: bottom;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.preview .categories {
+  font-size: 18px;
+  margin-top: -5px;
+}
+
+.preview .address-1 {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.preview .address-2 {
+  font-size: 18px;
+  margin-top: -20px;
+}
+
+.preview {
+  margin-top: 10px;
+}
+
+.preview .ant-tag {
+  margin: 2px;
+  font-size: 14px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.preview .ant-tag:hover {
+  cursor: default;
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.7),
+  inset 0 0 .5rem rgba(255, 255, 255, 0.7),
+  0 0 5px #f2d388,
+  inset 0 0 4rem rgba(255, 255, 255, 0.7); 
+}

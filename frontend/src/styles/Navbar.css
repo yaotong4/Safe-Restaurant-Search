@@ -1,0 +1,65 @@
+#header .logo {
+  float: left;
+  width: 150px;
+  height: 64px;
+  margin: 0px 30px -10px 0;
+  background-color: #f2d388;
+}
+
+#header img {
+  float: left;
+  width: 34px;
+  height: 34px;
+  margin: 14px 5px 0px 0px;
+}
+
+#header .logo .text {
+  font-family: "Monospace";
+  color: white;
+  float: left;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0px 0px 0px 0px;
+}
+
+#header .logo:hover{
+  cursor: pointer;
+  text-shadow: 0 0 3px #7a2415;
+}
+
+#header .logo:not(:hover) {
+  transition-delay: 0.1s;
+}
+
+#header .ant-layout-header {
+  background-color: #f2d388;
+}
+
+#header .ant-menu {
+  background-color: #f2d388;
+  font-size: 20px;
+}
+
+#header .ant-menu-item {
+  color: white;
+}
+
+#header .ant-menu-item-active {
+  background-color: #a7d2cb;
+  color: white
+}
+
+#header .ant-menu-item-selected {
+  background-color: #a7d2cb;
+  color: white;
+}
+
+:root {
+  --shadow: gray;
+}
+
+#header {
+  -webkit-box-shadow: 0 8px 6px -6px var(--shadow);
+	   -moz-box-shadow: 0 8px 6px -6px var(--shadow);
+	        box-shadow: 0 8px 6px -6px var(--shadow);
+}

@@ -1,0 +1,208 @@
+body {
+  background-color: #f6f4e8;
+}
+
+.restaurant .upper {
+  margin-top: 30px;
+}
+
+.restaurant .ant-divider-inner-text {
+  font-size: 32px;
+}
+
+.ant-image {
+  width: 100%;
+  height: 100%;
+  max-width:450px;
+  max-height:450px;
+}
+
+.slider-container {
+  padding: 40px;
+  background: #a7d2cb;
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+.chart-container {
+  margin-top: 20px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.chart-container .ant-tag {
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 2px 4px 2px 4px;
+}
+
+.chart-container .ant-tag:hover {
+  cursor: default;
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.7),
+  inset 0 0 .5rem rgba(255, 255, 255, 0.7),
+  0 0 5px #87d068,
+  inset 0 0 4rem rgba(255, 255, 255, 0.7); 
+}
+
+#info {
+  margin-left: 35%;
+}
+
+#info #name {
+  font-size: 56px;
+}
+
+#info .stars {
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+#info p {
+  font-size: 18px;
+}
+
+#info #cats {
+  font-size: 18px;
+  max-width: 70%;
+  margin-top: -10px;
+}
+
+#info #cats .ant-tag {
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#info #cats .ant-tag:hover {
+  cursor: default;
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.7),
+  inset 0 0 .5rem rgba(255, 255, 255, 0.7),
+  0 0 5px #f2d388,
+  inset 0 0 4rem rgba(255, 255, 255, 0.7); 
+}
+
+#reviews {
+  margin-top: 100px;
+  margin-left: 30%;
+  margin-bottom: 90px;
+  width: 60%;
+}
+
+.review-title {
+  margin-top: -5px;
+}
+
+.avatar {
+  margin-top: 10px;
+}
+
+.review .stars {
+  width: 180px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.review .date {
+  margin-left: 75px;
+  margin-bottom: -10px;
+}
+
+.review .date span {
+  font-size: 16px
+}
+
+.review .text {
+  font-size: 20px;
+}
+
+#tips {
+  margin-top: 100px;
+  margin-right: 30%;
+  margin-bottom: 60px;
+}
+
+#tips .ant-divider {
+  margin-bottom: 31px;
+}
+
+.tip {
+  width: 100%;
+  margin-bottom: 15px;
+  max-width: 50%;
+}
+
+.tip .ant-tag:hover {
+  cursor: default;
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.7),
+  inset 0 0 .5rem rgba(255, 255, 255, 0.7),
+  0 0 5px #f2d388,
+  inset 0 0 4rem rgba(255, 255, 255, 0.7); 
+}
+
+.tip .text{
+  font-size: 18px;
+  display: inline-block;
+  word-wrap:break-word;
+  width: 100%;
+  padding: 5px;
+}
+
+.tip .date {
+  font-size: 14px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.review .ant-card {
+  background-color: #f6f6f6;
+}
+
+.hours-divider {
+  width: 450px;
+  margin-top: -15px;
+}
+
+.hours-divider .ant-divider-inner-text {
+  font-size: 28px;
+}
+
+#hours {
+  margin-top: -10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#hours .hours {
+  padding-left: 25px;
+}
+
+#hours .open {
+  text-shadow: 0px 0px 0.5px black;
+}
+
+#map {
+  height: 450px;
+  width: 450px;
+}
+
+#map svg {
+  height: 35px;
+  width: 35px;
+}
+
+#recommendations {
+  margin-right: 30%;
+  margin-bottom: 30px;
+}
+
+.ant-empty {
+  margin-top: 100px;
+  margin-right: 270px;
+}
