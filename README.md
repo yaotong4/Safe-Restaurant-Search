@@ -5,3 +5,7 @@ This is a full-stack group project that built a COVID-Safe restaurant search app
 Techiques used for Frontend: React, Ant Design, react-google-maps, Yelp Fusion API
 
 Techiques used for Backend: MySQL, Amazon RDS, Node.js/Express
+
+
+<img width="1440" alt="Screen Shot 2021-05-17 at 4 24 16 PM" src="https://user-images.githubusercontent.com/75949536/118552155-915a7280-b72c-11eb-9939-0dc20de6abd1.png">
+
